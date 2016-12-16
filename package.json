@@ -1,7 +1,7 @@
 {
   "name": "box-node-sdk-snippets",
   "main": "./lib/box-node-sdk-snippets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Package with snippets for the official Box Node.js SDK",
   "keywords": [
     "box",
