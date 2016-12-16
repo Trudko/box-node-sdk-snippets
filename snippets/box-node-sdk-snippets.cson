@@ -524,20 +524,6 @@
             $3
             });'
             """
-  'groups.accessLevels':
-    'prefix': 'groups.accessLevels'
-    'body': """
-            groups.accessLevels(function(err, res) {
-            $NaN
-            });'
-            """
-  'groups.userRoles':
-    'prefix': 'groups.userRoles'
-    'body': """
-            groups.userRoles(function(err, res) {
-            $NaN
-            });'
-            """
   'groups.create':
     'prefix': 'groups.create'
     'body': """
@@ -622,27 +608,6 @@
             $5
             });'
             """
-  'metadata.templates':
-    'prefix': 'metadata.templates'
-    'body': """
-            metadata.templates(function(err, res) {
-            $NaN
-            });'
-            """
-  'metadata.scopes':
-    'prefix': 'metadata.scopes'
-    'body': """
-            metadata.scopes(function(err, res) {
-            $NaN
-            });'
-            """
-  'metadata.fieldTypes':
-    'prefix': 'metadata.fieldTypes'
-    'body': """
-            metadata.fieldTypes(function(err, res) {
-            $NaN
-            });'
-            """
   'metadata.getTemplateSchema':
     'prefix': 'metadata.getTemplateSchema'
     'body': """
@@ -713,25 +678,11 @@
             $3
             });'
             """
-  'search.scopes':
-    'prefix': 'search.scopes'
-    'body': """
-            search.scopes(function(err, res) {
-            $NaN
-            });'
-            """
   'search.query':
     'prefix': 'search.query'
     'body': """
             search.query($1, $2, $3, function(err, res) {
             $4
-            });'
-            """
-  'tasks.resolutionStates':
-    'prefix': 'tasks.resolutionStates'
-    'body': """
-            tasks.resolutionStates(function(err, res) {
-            $NaN
             });'
             """
   'tasks.create':
@@ -802,13 +753,6 @@
     'body': """
             tasks.deleteAssignment($1, $2, function(err, res) {
             $3
-            });'
-            """
-  'legalHoldPolicies.assignmentTypes':
-    'prefix': 'legalHoldPolicies.assignmentTypes'
-    'body': """
-            legalHoldPolicies.assignmentTypes(function(err, res) {
-            $NaN
             });'
             """
   'legalHoldPolicies.create':
@@ -916,27 +860,6 @@
             $3
             });'
             """
-  'retentionPolicies.policyTypes':
-    'prefix': 'retentionPolicies.policyTypes'
-    'body': """
-            retentionPolicies.policyTypes(function(err, res) {
-            $NaN
-            });'
-            """
-  'retentionPolicies.dispositionActions':
-    'prefix': 'retentionPolicies.dispositionActions'
-    'body': """
-            retentionPolicies.dispositionActions(function(err, res) {
-            $NaN
-            });'
-            """
-  'retentionPolicies.assignmentTypes':
-    'prefix': 'retentionPolicies.assignmentTypes'
-    'body': """
-            retentionPolicies.assignmentTypes(function(err, res) {
-            $NaN
-            });'
-            """
   'retentionPolicies.create':
     'prefix': 'retentionPolicies.create'
     'body': """
@@ -1019,13 +942,6 @@
     'body': """
             devicePins.getAll($1, $2, function(err, res) {
             $3
-            });'
-            """
-  'webhooks.triggerTypes':
-    'prefix': 'webhooks.triggerTypes'
-    'body': """
-            webhooks.triggerTypes(function(err, res) {
-            $NaN
             });'
             """
   'webhooks.create':
