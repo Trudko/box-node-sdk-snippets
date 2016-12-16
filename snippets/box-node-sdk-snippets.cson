@@ -1,0 +1,1065 @@
+'.source.js':
+  'users.get':
+    'prefix': 'users.get'
+    'body': """
+            users.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'users.update':
+    'prefix': 'users.update'
+    'body': """
+            users.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'users.delete':
+    'prefix': 'users.delete'
+    'body': """
+            users.delete($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'users.getEmailAliases':
+    'prefix': 'users.getEmailAliases'
+    'body': """
+            users.getEmailAliases($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'users.addEmailAlias':
+    'prefix': 'users.addEmailAlias'
+    'body': """
+            users.addEmailAlias($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'users.removeEmailAlias':
+    'prefix': 'users.removeEmailAlias'
+    'body': """
+            users.removeEmailAlias($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'users.getGroupMemberships':
+    'prefix': 'users.getGroupMemberships'
+    'body': """
+            users.getGroupMemberships($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.get':
+    'prefix': 'files.get'
+    'body': """
+            files.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getDownloadURL':
+    'prefix': 'files.getDownloadURL'
+    'body': """
+            files.getDownloadURL($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getReadStream':
+    'prefix': 'files.getReadStream'
+    'body': """
+            files.getReadStream($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getThumbnail':
+    'prefix': 'files.getThumbnail'
+    'body': """
+            files.getThumbnail($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getComments':
+    'prefix': 'files.getComments'
+    'body': """
+            files.getComments($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.update':
+    'prefix': 'files.update'
+    'body': """
+            files.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.addToCollection':
+    'prefix': 'files.addToCollection'
+    'body': """
+            files.addToCollection($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.removeFromCollection':
+    'prefix': 'files.removeFromCollection'
+    'body': """
+            files.removeFromCollection($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.move':
+    'prefix': 'files.move'
+    'body': """
+            files.move($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.copy':
+    'prefix': 'files.copy'
+    'body': """
+            files.copy($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'files.delete':
+    'prefix': 'files.delete'
+    'body': """
+            files.delete($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'files.preflightUploadFile':
+    'prefix': 'files.preflightUploadFile'
+    'body': """
+            files.preflightUploadFile($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'files.preflightUploadNewFileVersion':
+    'prefix': 'files.preflightUploadNewFileVersion'
+    'body': """
+            files.preflightUploadNewFileVersion($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'files.promoteVersion':
+    'prefix': 'files.promoteVersion'
+    'body': """
+            files.promoteVersion($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.uploadFile':
+    'prefix': 'files.uploadFile'
+    'body': """
+            files.uploadFile($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'files.uploadNewFileVersion':
+    'prefix': 'files.uploadNewFileVersion'
+    'body': """
+            files.uploadNewFileVersion($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getAllMetadata':
+    'prefix': 'files.getAllMetadata'
+    'body': """
+            files.getAllMetadata($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'files.getMetadata':
+    'prefix': 'files.getMetadata'
+    'body': """
+            files.getMetadata($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'files.addMetadata':
+    'prefix': 'files.addMetadata'
+    'body': """
+            files.addMetadata($1, $2, $3, $4, $5, function(err, res) {
+            $6
+            });'
+            """
+  'files.updateMetadata':
+    'prefix': 'files.updateMetadata'
+    'body': """
+            files.updateMetadata($1, $2, $3, $4, $5, function(err, res) {
+            $6
+            });'
+            """
+  'files.deleteMetadata':
+    'prefix': 'files.deleteMetadata'
+    'body': """
+            files.deleteMetadata($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'files.deletePermanently':
+    'prefix': 'files.deletePermanently'
+    'body': """
+            files.deletePermanently($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'files.getTrashedFile':
+    'prefix': 'files.getTrashedFile'
+    'body': """
+            files.getTrashedFile($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getTasks':
+    'prefix': 'files.getTasks'
+    'body': """
+            files.getTasks($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getEmbedLink':
+    'prefix': 'files.getEmbedLink'
+    'body': """
+            files.getEmbedLink($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'files.lock':
+    'prefix': 'files.lock'
+    'body': """
+            files.lock($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.unlock':
+    'prefix': 'files.unlock'
+    'body': """
+            files.unlock($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'files.restoreFromTrash':
+    'prefix': 'files.restoreFromTrash'
+    'body': """
+            files.restoreFromTrash($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getVersions':
+    'prefix': 'files.getVersions'
+    'body': """
+            files.getVersions($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.getWatermark':
+    'prefix': 'files.getWatermark'
+    'body': """
+            files.getWatermark($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.applyWatermark':
+    'prefix': 'files.applyWatermark'
+    'body': """
+            files.applyWatermark($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'files.removeWatermark':
+    'prefix': 'files.removeWatermark'
+    'body': """
+            files.removeWatermark($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'files.deleteVersion':
+    'prefix': 'files.deleteVersion'
+    'body': """
+            files.deleteVersion($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.get':
+    'prefix': 'folders.get'
+    'body': """
+            folders.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.getItems':
+    'prefix': 'folders.getItems'
+    'body': """
+            folders.getItems($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.getCollaborations':
+    'prefix': 'folders.getCollaborations'
+    'body': """
+            folders.getCollaborations($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.create':
+    'prefix': 'folders.create'
+    'body': """
+            folders.create($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.copy':
+    'prefix': 'folders.copy'
+    'body': """
+            folders.copy($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'folders.update':
+    'prefix': 'folders.update'
+    'body': """
+            folders.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.addToCollection':
+    'prefix': 'folders.addToCollection'
+    'body': """
+            folders.addToCollection($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.removeFromCollection':
+    'prefix': 'folders.removeFromCollection'
+    'body': """
+            folders.removeFromCollection($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.move':
+    'prefix': 'folders.move'
+    'body': """
+            folders.move($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.delete':
+    'prefix': 'folders.delete'
+    'body': """
+            folders.delete($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.getAllMetadata':
+    'prefix': 'folders.getAllMetadata'
+    'body': """
+            folders.getAllMetadata($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'folders.getMetadata':
+    'prefix': 'folders.getMetadata'
+    'body': """
+            folders.getMetadata($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'folders.addMetadata':
+    'prefix': 'folders.addMetadata'
+    'body': """
+            folders.addMetadata($1, $2, $3, $4, $5, function(err, res) {
+            $6
+            });'
+            """
+  'folders.updateMetadata':
+    'prefix': 'folders.updateMetadata'
+    'body': """
+            folders.updateMetadata($1, $2, $3, $4, $5, function(err, res) {
+            $6
+            });'
+            """
+  'folders.deleteMetadata':
+    'prefix': 'folders.deleteMetadata'
+    'body': """
+            folders.deleteMetadata($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'folders.getTrashedFolder':
+    'prefix': 'folders.getTrashedFolder'
+    'body': """
+            folders.getTrashedFolder($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.restoreFromTrash':
+    'prefix': 'folders.restoreFromTrash'
+    'body': """
+            folders.restoreFromTrash($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.deletePermanently':
+    'prefix': 'folders.deletePermanently'
+    'body': """
+            folders.deletePermanently($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'folders.getWatermark':
+    'prefix': 'folders.getWatermark'
+    'body': """
+            folders.getWatermark($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.applyWatermark':
+    'prefix': 'folders.applyWatermark'
+    'body': """
+            folders.applyWatermark($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'folders.removeWatermark':
+    'prefix': 'folders.removeWatermark'
+    'body': """
+            folders.removeWatermark($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'comments.get':
+    'prefix': 'comments.get'
+    'body': """
+            comments.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'comments.create':
+    'prefix': 'comments.create'
+    'body': """
+            comments.create($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'comments.createTaggedComment':
+    'prefix': 'comments.createTaggedComment'
+    'body': """
+            comments.createTaggedComment($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'comments.update':
+    'prefix': 'comments.update'
+    'body': """
+            comments.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'comments.delete':
+    'prefix': 'comments.delete'
+    'body': """
+            comments.delete($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'collaborations.get':
+    'prefix': 'collaborations.get'
+    'body': """
+            collaborations.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'collaborations.getPending':
+    'prefix': 'collaborations.getPending'
+    'body': """
+            collaborations.getPending($1, function(err, res) {
+            $2
+            });'
+            """
+  'collaborations.update':
+    'prefix': 'collaborations.update'
+    'body': """
+            collaborations.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'collaborations.respondToPending':
+    'prefix': 'collaborations.respondToPending'
+    'body': """
+            collaborations.respondToPending($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'collaborations.create':
+    'prefix': 'collaborations.create'
+    'body': """
+            collaborations.create($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'collaborations.createWithUserID':
+    'prefix': 'collaborations.createWithUserID'
+    'body': """
+            collaborations.createWithUserID($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'collaborations.createWithUserEmail':
+    'prefix': 'collaborations.createWithUserEmail'
+    'body': """
+            collaborations.createWithUserEmail($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'collaborations.createWithGroupID':
+    'prefix': 'collaborations.createWithGroupID'
+    'body': """
+            collaborations.createWithGroupID($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'collaborations.delete':
+    'prefix': 'collaborations.delete'
+    'body': """
+            collaborations.delete($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'groups.accessLevels':
+    'prefix': 'groups.accessLevels'
+    'body': """
+            groups.accessLevels(function(err, res) {
+            $NaN
+            });'
+            """
+  'groups.userRoles':
+    'prefix': 'groups.userRoles'
+    'body': """
+            groups.userRoles(function(err, res) {
+            $NaN
+            });'
+            """
+  'groups.create':
+    'prefix': 'groups.create'
+    'body': """
+            groups.create($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'groups.get':
+    'prefix': 'groups.get'
+    'body': """
+            groups.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'groups.update':
+    'prefix': 'groups.update'
+    'body': """
+            groups.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'groups.delete':
+    'prefix': 'groups.delete'
+    'body': """
+            groups.delete($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'groups.addUser':
+    'prefix': 'groups.addUser'
+    'body': """
+            groups.addUser($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'groups.getMembership':
+    'prefix': 'groups.getMembership'
+    'body': """
+            groups.getMembership($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'groups.updateMembership':
+    'prefix': 'groups.updateMembership'
+    'body': """
+            groups.updateMembership($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'groups.removeMembership':
+    'prefix': 'groups.removeMembership'
+    'body': """
+            groups.removeMembership($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'groups.getMemberships':
+    'prefix': 'groups.getMemberships'
+    'body': """
+            groups.getMemberships($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'groups.getAll':
+    'prefix': 'groups.getAll'
+    'body': """
+            groups.getAll($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'groups.getCollaborations':
+    'prefix': 'groups.getCollaborations'
+    'body': """
+            groups.getCollaborations($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'sharedItems.get':
+    'prefix': 'sharedItems.get'
+    'body': """
+            sharedItems.get($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'metadata.templates':
+    'prefix': 'metadata.templates'
+    'body': """
+            metadata.templates(function(err, res) {
+            $NaN
+            });'
+            """
+  'metadata.scopes':
+    'prefix': 'metadata.scopes'
+    'body': """
+            metadata.scopes(function(err, res) {
+            $NaN
+            });'
+            """
+  'metadata.fieldTypes':
+    'prefix': 'metadata.fieldTypes'
+    'body': """
+            metadata.fieldTypes(function(err, res) {
+            $NaN
+            });'
+            """
+  'metadata.getTemplateSchema':
+    'prefix': 'metadata.getTemplateSchema'
+    'body': """
+            metadata.getTemplateSchema($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'metadata.getTemplates':
+    'prefix': 'metadata.getTemplates'
+    'body': """
+            metadata.getTemplates($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'metadata.createTemplate':
+    'prefix': 'metadata.createTemplate'
+    'body': """
+            metadata.createTemplate($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'metadata.updateTemplate':
+    'prefix': 'metadata.updateTemplate'
+    'body': """
+            metadata.updateTemplate($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'collections.getAll':
+    'prefix': 'collections.getAll'
+    'body': """
+            collections.getAll($1, function(err, res) {
+            $2
+            });'
+            """
+  'collections.getItems':
+    'prefix': 'collections.getItems'
+    'body': """
+            collections.getItems($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'events.getCurrentStreamPosition':
+    'prefix': 'events.getCurrentStreamPosition'
+    'body': """
+            events.getCurrentStreamPosition($1, function(err, res) {
+            $2
+            });'
+            """
+  'events.get':
+    'prefix': 'events.get'
+    'body': """
+            events.get($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'events.getLongPollInfo':
+    'prefix': 'events.getLongPollInfo'
+    'body': """
+            events.getLongPollInfo($1, function(err, res) {
+            $2
+            });'
+            """
+  'events.getEventStream':
+    'prefix': 'events.getEventStream'
+    'body': """
+            events.getEventStream($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'search.scopes':
+    'prefix': 'search.scopes'
+    'body': """
+            search.scopes(function(err, res) {
+            $NaN
+            });'
+            """
+  'search.query':
+    'prefix': 'search.query'
+    'body': """
+            search.query($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.resolutionStates':
+    'prefix': 'tasks.resolutionStates'
+    'body': """
+            tasks.resolutionStates(function(err, res) {
+            $NaN
+            });'
+            """
+  'tasks.create':
+    'prefix': 'tasks.create'
+    'body': """
+            tasks.create($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.get':
+    'prefix': 'tasks.get'
+    'body': """
+            tasks.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.update':
+    'prefix': 'tasks.update'
+    'body': """
+            tasks.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.delete':
+    'prefix': 'tasks.delete'
+    'body': """
+            tasks.delete($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'tasks.getAssignments':
+    'prefix': 'tasks.getAssignments'
+    'body': """
+            tasks.getAssignments($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.getAssignment':
+    'prefix': 'tasks.getAssignment'
+    'body': """
+            tasks.getAssignment($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.assignByUserID':
+    'prefix': 'tasks.assignByUserID'
+    'body': """
+            tasks.assignByUserID($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.assignByEmail':
+    'prefix': 'tasks.assignByEmail'
+    'body': """
+            tasks.assignByEmail($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.updateAssignment':
+    'prefix': 'tasks.updateAssignment'
+    'body': """
+            tasks.updateAssignment($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'tasks.deleteAssignment':
+    'prefix': 'tasks.deleteAssignment'
+    'body': """
+            tasks.deleteAssignment($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'legalHoldPolicies.assignmentTypes':
+    'prefix': 'legalHoldPolicies.assignmentTypes'
+    'body': """
+            legalHoldPolicies.assignmentTypes(function(err, res) {
+            $NaN
+            });'
+            """
+  'legalHoldPolicies.create':
+    'prefix': 'legalHoldPolicies.create'
+    'body': """
+            legalHoldPolicies.create($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'legalHoldPolicies.get':
+    'prefix': 'legalHoldPolicies.get'
+    'body': """
+            legalHoldPolicies.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'legalHoldPolicies.update':
+    'prefix': 'legalHoldPolicies.update'
+    'body': """
+            legalHoldPolicies.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'legalHoldPolicies.getAll':
+    'prefix': 'legalHoldPolicies.getAll'
+    'body': """
+            legalHoldPolicies.getAll($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'legalHoldPolicies.delete':
+    'prefix': 'legalHoldPolicies.delete'
+    'body': """
+            legalHoldPolicies.delete($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'legalHoldPolicies.getAssignments':
+    'prefix': 'legalHoldPolicies.getAssignments'
+    'body': """
+            legalHoldPolicies.getAssignments($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'legalHoldPolicies.assign':
+    'prefix': 'legalHoldPolicies.assign'
+    'body': """
+            legalHoldPolicies.assign($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'legalHoldPolicies.getAssignment':
+    'prefix': 'legalHoldPolicies.getAssignment'
+    'body': """
+            legalHoldPolicies.getAssignment($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'legalHoldPolicies.deleteAssignment':
+    'prefix': 'legalHoldPolicies.deleteAssignment'
+    'body': """
+            legalHoldPolicies.deleteAssignment($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'legalHoldPolicies.getFileVersionLegalHold':
+    'prefix': 'legalHoldPolicies.getFileVersionLegalHold'
+    'body': """
+            legalHoldPolicies.getFileVersionLegalHold($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'legalHoldPolicies.getAllFileVersionLegalHolds':
+    'prefix': 'legalHoldPolicies.getAllFileVersionLegalHolds'
+    'body': """
+            legalHoldPolicies.getAllFileVersionLegalHolds($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'weblinks.create':
+    'prefix': 'weblinks.create'
+    'body': """
+            weblinks.create($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'weblinks.get':
+    'prefix': 'weblinks.get'
+    'body': """
+            weblinks.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'weblinks.update':
+    'prefix': 'weblinks.update'
+    'body': """
+            weblinks.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'weblinks.delete':
+    'prefix': 'weblinks.delete'
+    'body': """
+            weblinks.delete($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'retentionPolicies.policyTypes':
+    'prefix': 'retentionPolicies.policyTypes'
+    'body': """
+            retentionPolicies.policyTypes(function(err, res) {
+            $NaN
+            });'
+            """
+  'retentionPolicies.dispositionActions':
+    'prefix': 'retentionPolicies.dispositionActions'
+    'body': """
+            retentionPolicies.dispositionActions(function(err, res) {
+            $NaN
+            });'
+            """
+  'retentionPolicies.assignmentTypes':
+    'prefix': 'retentionPolicies.assignmentTypes'
+    'body': """
+            retentionPolicies.assignmentTypes(function(err, res) {
+            $NaN
+            });'
+            """
+  'retentionPolicies.create':
+    'prefix': 'retentionPolicies.create'
+    'body': """
+            retentionPolicies.create($1, $2, $3, $4, $5, function(err, res) {
+            $6
+            });'
+            """
+  'retentionPolicies.get':
+    'prefix': 'retentionPolicies.get'
+    'body': """
+            retentionPolicies.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'retentionPolicies.update':
+    'prefix': 'retentionPolicies.update'
+    'body': """
+            retentionPolicies.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'retentionPolicies.getAll':
+    'prefix': 'retentionPolicies.getAll'
+    'body': """
+            retentionPolicies.getAll($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'retentionPolicies.getAssignments':
+    'prefix': 'retentionPolicies.getAssignments'
+    'body': """
+            retentionPolicies.getAssignments($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'retentionPolicies.assign':
+    'prefix': 'retentionPolicies.assign'
+    'body': """
+            retentionPolicies.assign($1, $2, $3, $4, function(err, res) {
+            $5
+            });'
+            """
+  'retentionPolicies.getAssignment':
+    'prefix': 'retentionPolicies.getAssignment'
+    'body': """
+            retentionPolicies.getAssignment($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'retentionPolicies.getFileVersionRetention':
+    'prefix': 'retentionPolicies.getFileVersionRetention'
+    'body': """
+            retentionPolicies.getFileVersionRetention($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'retentionPolicies.getAllFileVersionRetentions':
+    'prefix': 'retentionPolicies.getAllFileVersionRetentions'
+    'body': """
+            retentionPolicies.getAllFileVersionRetentions($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'devicePins.get':
+    'prefix': 'devicePins.get'
+    'body': """
+            devicePins.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'devicePins.delete':
+    'prefix': 'devicePins.delete'
+    'body': """
+            devicePins.delete($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'devicePins.getAll':
+    'prefix': 'devicePins.getAll'
+    'body': """
+            devicePins.getAll($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'webhooks.triggerTypes':
+    'prefix': 'webhooks.triggerTypes'
+    'body': """
+            webhooks.triggerTypes(function(err, res) {
+            $NaN
+            });'
+            """
+  'webhooks.create':
+    'prefix': 'webhooks.create'
+    'body': """
+            webhooks.create($1, $2, $3, $4, $5, function(err, res) {
+            $6
+            });'
+            """
+  'webhooks.get':
+    'prefix': 'webhooks.get'
+    'body': """
+            webhooks.get($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'webhooks.getAll':
+    'prefix': 'webhooks.getAll'
+    'body': """
+            webhooks.getAll($1, $2, function(err, res) {
+            $3
+            });'
+            """
+  'webhooks.update':
+    'prefix': 'webhooks.update'
+    'body': """
+            webhooks.update($1, $2, $3, function(err, res) {
+            $4
+            });'
+            """
+  'webhooks.delete':
+    'prefix': 'webhooks.delete'
+    'body': """
+            webhooks.delete($1, $2, function(err, res) {
+            $3
+            });'
+            """

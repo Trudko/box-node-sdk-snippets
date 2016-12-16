@@ -1,0 +1,19 @@
+{
+    "name": "box-node-sdk-snippets",
+    "main": "./lib/box-node-sdk-snippets",
+    "version": "0.0.0",
+    "description": "Package with snippets for the official Box Node.js SDK",
+    "keywords": [
+        "box",
+        "nodejs"
+    ],
+    "activationCommands": {
+        "atom-workspace": "box-node-sdk-snippets:toggle"
+    },
+    "repository": "https://github.com/Trudko/box-node-sdk-snippets",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
+}
